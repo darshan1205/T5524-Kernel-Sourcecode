@@ -65,7 +65,12 @@ dtb-$(CONFIG_ARCH_MSM8909) += msm8909-sim.dtb \
 	msm8208-1gb-rcm.dtb \
 	msm8208-qhd-cdp.dtb \
 	msm8208-qhd-rcm.dtb
-dtb-$(CONFIG_ARCH_MSM8916) += msm8916-sim.dtb \
+dtb-$(CONFIG_ARCH_MSM8916) +=  msm8956-qrd.dtb \
+        msm8956-v1.1-qrd.dtb \
+	msm8976-rimosrt.dtb \
+	msm8976-v1.1-rimosrt.dtb \
+
+dtb- += msm8916-sim.dtb \
 	msm8916-rumi.dtb \
 	msm8916-cdp.dtb \
 	msm8916-cdp-smb1360.dtb \

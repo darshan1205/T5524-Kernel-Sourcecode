@@ -1542,7 +1542,7 @@ int32_t qpnp_vadc_conv_seq_request(struct qpnp_vadc_chip *vadc,
 	u8 status1 = 0;
 
 	if (qpnp_vadc_is_valid(vadc))
-		return -EPROBE_DEFER;
+		return -EINVAL;
 
 	mutex_lock(&vadc->adc->adc_lock);
 
